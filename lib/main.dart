@@ -314,13 +314,7 @@ class ForgotPasswordPage extends StatelessWidget {
             ),
           ),
           Container(
-<<<<<<< HEAD
               margin: EdgeInsets.only(left: 30, right: 30, top: 15),
-=======
-              margin: EdgeInsets.only(top: 10, left: 30, right: 30),
-              color: Colors.redAccent,
-              height: 40,
->>>>>>> 377f7469cd72c65e9d55538949af75f8d55380cd
               alignment: Alignment.center,
               child: SizedBox(
                   width: 1200,
@@ -376,11 +370,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 alignment: Alignment.center,
                 padding: EdgeInsets.all(0),
                 child: SizedBox(
-<<<<<<< HEAD
                     height: 100,
-=======
-                    height: 80,
->>>>>>> 377f7469cd72c65e9d55538949af75f8d55380cd
                     width: 200,
                     child: Image(
                       image: AssetImage("assets/logo.png"),
@@ -391,11 +381,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Text(
                   "Welcome Back!",
                   style: TextStyle(
-<<<<<<< HEAD
                     fontSize: 20,
-=======
-                    fontSize: 14,
->>>>>>> 377f7469cd72c65e9d55538949af75f8d55380cd
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -403,20 +389,12 @@ class _MyHomePageState extends State<MyHomePage> {
               Container(
                   child: Column(children: [
                 Container(
-<<<<<<< HEAD
                   margin: EdgeInsets.only(top: 20, left: 30),
-=======
-                  margin: EdgeInsets.only(top: 10, left: 30),
->>>>>>> 377f7469cd72c65e9d55538949af75f8d55380cd
                   padding: EdgeInsets.all(0),
                   alignment: Alignment.topLeft,
                   child: Text(
                     "Email Address",
-<<<<<<< HEAD
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
-=======
-                    style: TextStyle(fontWeight: FontWeight.bold),
->>>>>>> 377f7469cd72c65e9d55538949af75f8d55380cd
                   ),
                 ),
                 Container(
@@ -434,19 +412,11 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ),
                 Container(
-<<<<<<< HEAD
                   margin: EdgeInsets.only(top: 20, left: 30),
                   alignment: Alignment.topLeft,
                   child: Text(
                     "Password",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
-=======
-                  margin: EdgeInsets.only(top: 10, left: 30),
-                  alignment: Alignment.topLeft,
-                  child: Text(
-                    "Password",
-                    style: TextStyle(fontWeight: FontWeight.bold),
->>>>>>> 377f7469cd72c65e9d55538949af75f8d55380cd
                   ),
                 ),
                 Container(
@@ -472,20 +442,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 Container(
                   alignment: Alignment.topRight,
-<<<<<<< HEAD
                   margin: EdgeInsets.only(right: 30, top: 5),
                   child: TextButton(
                       child: Text(
                         "Forgot Password?",
                         style:
                             TextStyle(color: Colors.red.shade700, fontSize: 16),
-=======
-                  margin: EdgeInsets.only(right: 20),
-                  child: TextButton(
-                      child: Text(
-                        "Forgot Password?",
-                        style: TextStyle(color: Colors.red.shade700),
->>>>>>> 377f7469cd72c65e9d55538949af75f8d55380cd
                       ),
                       onPressed: () {
                         Navigator.push(
@@ -496,7 +458,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       }),
                 ),
                 Container(
-<<<<<<< HEAD
                     margin: EdgeInsets.only(
                         left: 50, right: 50, bottom: 8, top: 10),
                     alignment: Alignment.center,
@@ -519,24 +480,6 @@ class _MyHomePageState extends State<MyHomePage> {
                             //);
                           },
                         )))
-=======
-                    margin: EdgeInsets.only(left: 50, right: 50, bottom: 4),
-                    color: Colors.redAccent,
-                    height: 35,
-                    alignment: Alignment.center,
-                    child: TextButton(
-                      child: Text("Log in",
-                          style: TextStyle(color: Colors.white, fontSize: 14)),
-                      onPressed: () {
-                        //Still working on nextPage
-                        //Navigator.push(
-                        //context,
-                        //MaterialPageRoute(
-                        //builder: (context) => BalanceState()),
-                        //);
-                      },
-                    ))
->>>>>>> 377f7469cd72c65e9d55538949af75f8d55380cd
               ])),
               Container(
                   margin: EdgeInsets.only(top: 10, left: 20, bottom: 10),
