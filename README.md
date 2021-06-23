@@ -1,6 +1,6 @@
-# alat_login
+# An App Login Screen
 
-A new Flutter project.
+Built with flutter
 
 ## Getting Started
 
